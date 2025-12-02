@@ -1,0 +1,884 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-12-02T08:28:36.661Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4671100300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify OS filter for multiple OS types",
+        "description": "",
+        "id": "user-view-product-by-filters;verify-os-filter-for-multiple-os-types;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2267500600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8774594200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the laptop page",
+            "match": {
+              "location": "steps.testcase3_OS.user_is_on_the_laptop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6344987700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user select the \"Windows 10\" OS filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Windows 10\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.testcase3_OS.user_select_the_os_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114984000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should see laptops that match the selected OS",
+            "match": {
+              "location": "steps.testcase3_OS.user_should_see_laptops_that_match_the_selected_os()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-02T08:28:59.019Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2312775900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify OS filter for multiple OS types",
+        "description": "",
+        "id": "user-view-product-by-filters;verify-os-filter-for-multiple-os-types;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2237102000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10028271300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the laptop page",
+            "match": {
+              "location": "steps.testcase3_OS.user_is_on_the_laptop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6217953900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user select the \"Chrome OS\" OS filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome OS\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.testcase3_OS.user_select_the_os_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119978800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should see laptops that match the selected OS",
+            "match": {
+              "location": "steps.testcase3_OS.user_should_see_laptops_that_match_the_selected_os()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-02T08:29:19.961Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3688681800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify OS filter for multiple OS types",
+        "description": "",
+        "id": "user-view-product-by-filters;verify-os-filter-for-multiple-os-types;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2243207800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8782799500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the laptop page",
+            "match": {
+              "location": "steps.testcase3_OS.user_is_on_the_laptop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6432117400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user select the \"Windows 7 Professional 64\" OS filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Windows 7 Professional 64\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.testcase3_OS.user_select_the_os_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137410500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should see laptops that match the selected OS",
+            "match": {
+              "location": "steps.testcase3_OS.user_should_see_laptops_that_match_the_selected_os()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-02T08:29:41.279Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3490763800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify OS filter for multiple OS types",
+        "description": "",
+        "id": "user-view-product-by-filters;verify-os-filter-for-multiple-os-types;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2310949500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8600793200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the laptop page",
+            "match": {
+              "location": "steps.testcase3_OS.user_is_on_the_laptop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6466362700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user select the \"Windows 8.1\" OS filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Windows 8.1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.testcase3_OS.user_select_the_os_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121994600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should see laptops that match the selected OS",
+            "match": {
+              "location": "steps.testcase3_OS.user_should_see_laptops_that_match_the_selected_os()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-02T08:30:02.292Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3869587000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User filters laptops by the processor",
+        "description": "",
+        "id": "user-view-product-by-filters;user-filters-laptops-by-the-processor",
+        "after": [
+          {
+            "result": {
+              "duration": 2272950300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12268843400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user filter the laptops by the processor",
+            "match": {
+              "location": "steps.testcase_processor.the_user_filter_the_laptops_by_the_processor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the displayed laptops should have in selected processor",
+            "match": {
+              "location": "steps.testcase_processor.the_displayed_laptops_should_have_in_selected_processor()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user view product by filters",
+    "description": "",
+    "id": "user-view-product-by-filters",
+    "keyword": "Feature",
+    "uri": "file:features/filter.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-12-02T08:30:20.816Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3589842300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid value",
+        "description": "",
+        "id": "login-to-the-application;login-with-valid-value",
+        "after": [
+          {
+            "result": {
+              "duration": 2005649000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19999500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user in the login page to login with valid details",
+            "match": {
+              "location": "steps.testcase1_login.the_user_in_the_login_page_to_login_with_valid_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11645042400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "he enters the valid credentials of \"lovisfortuner\" and \"Sudhan@78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lovisfortuner\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Sudhan@78\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.testcase1_login.he_enters_the_valid_credentials_of_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2016486700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he should be able to login to the Home page",
+            "match": {
+              "location": "steps.testcase1_login.he_should_be_able_to_login_to_the_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-02T08:30:40.114Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3716283300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "login with invalid value",
+        "description": "",
+        "id": "login-to-the-application;login-with-invalid-value",
+        "after": [
+          {
+            "result": {
+              "duration": 2264245100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user in the login page to login with invalid details",
+            "match": {
+              "location": "steps.testcase2_invalid.the_user_in_the_login_page_to_login_with_valid_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9301454600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "he enters the invalid credentials \"nandhagopal\" and \"Sudhan@78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nandhagopal\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Sudhan@78\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.testcase2_invalid.he_enters_the_invalid_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15753800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "he should be not able to login to the Home page",
+            "match": {
+              "location": "steps.testcase2_invalid.he_should_be_not_able_to_login_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login to the application",
+    "description": "",
+    "id": "login-to-the-application",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "the user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2025-12-02T08:30:55.427Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3903203400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User enters valid SafePay credentials",
+        "description": "",
+        "id": "safepay-payment-validation;user-enters-valid-safepay-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2274743500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28358151700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user has a product in the cart",
+            "match": {
+              "location": "steps.testcase4_payment_valid.the_user_has_a_product_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233525400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "he selects SafePay and enters \"priyadharsh\" and \"Priya@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priyadharsh\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Priya@123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.testcase4_payment_valid.he_selects_SafePay_and_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2171658500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he completes the payment",
+            "match": {
+              "location": "steps.testcase4_payment_valid.he_completes_the_payment()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "the user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2025-12-02T08:31:32.383Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3800365000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User enters invalid SafePay credentials",
+        "description": "",
+        "id": "safepay-payment-validation;user-enters-invalid-safepay-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2343886600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41605067900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user has a products in the cart",
+            "match": {
+              "location": "steps.testcase5_payment_invalid.the_user_has_a_products_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254943900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he selects SafePay and enter \"sabari\" and \"sabarinadhansabari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sabari\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"sabarinadhansabari\"",
+                  "offset": 42
+                }
+              ],
+              "location": "steps.testcase5_payment_invalid.he_selects_safe_pay_and_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10132405000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "he should see a payment error",
+            "match": {
+              "location": "steps.testcase5_payment_invalid.he_should_see_a_payment_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SafePay Payment Validation",
+    "description": "",
+    "id": "safepay-payment-validation",
+    "keyword": "Feature",
+    "uri": "file:features/payment.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user in the laptop page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2025-12-02T08:32:30.541Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3666239400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "check available products details",
+        "description": "",
+        "id": "check-product-details;check-available-products-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2229588900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19949430800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he check product details available",
+            "match": {
+              "location": "steps.testcase7_product.he_check_product_details_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10117920600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "display it is available",
+            "match": {
+              "location": "steps.testcase7_product.display_it_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user in the laptop page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2025-12-02T08:33:06.521Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2530786000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "check unavailable products details",
+        "description": "",
+        "id": "check-product-details;check-unavailable-products-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2243158800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23649252400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "he check product details are not available",
+            "match": {
+              "location": "steps.testcase8.he_check_product_details_are_not_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158012700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "display it is unavailable",
+            "match": {
+              "location": "steps.testcase8.display_it_is_unavailable()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check product details",
+    "description": "",
+    "id": "check-product-details",
+    "keyword": "Feature",
+    "uri": "file:features/product.feature",
+    "tags": []
+  }
+]

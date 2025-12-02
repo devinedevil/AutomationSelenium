@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>testrunner</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 29 15:42:57 IST 2025</td>
+<td>Started on:</td><td>Tue Dec 02 13:58:35 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>300 seconds (300666 ms)</td>
+<tr><td>Total time:</td><td>299 seconds (299275 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,174 +67,68 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "user view product by filters"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li ng-repeat=&quot;product in [] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude&quot; ng-click=&quot;$location.path(&apos;/product/&apos; + product.productId)&quot; class=&quot;ng-scope&quot;&gt;...&lt;/li&gt; is not clickable at point (357, 102). Other element would receive the click: &lt;nav class=&quot;pages categoryDataFixedNav fixed&quot; data-ng-class=&quot;{ fixedImportant : viewAll }&quot;&gt;...&lt;/nav&gt;
-  (Session info: MicrosoftEdge=142.0.3595.94)
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1077acfd2efe67c2e2632f761ca05d19, clickElement {id=f.D596AE892E756457637C76CFB4CF9D9D.d.1AEF09113186797733F9651BE5550B29.e.122}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 5812, ms:edgeOptions: {debuggerAddress: localhost:53604}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53604/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (1077acfd2efe67c2e2632f761ca05d19)] -&gt; xpath: /html/body/div[3]/section/article/div[3]/div/div/div[2]/ul/li[1]]
-Session ID: 1077acfd2efe67c2e2632f761ca05d19
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pageObject.LaptopPage.validateOSResults(LaptopPage.java:47)
-	at steps.tc2.user_should_see_laptops_that_match_the_selected_os(tc2.java:50)
-	at ✽.user should see laptops that match the selected OS(file:///D:/selenium%20demo/capstone_project/features/filter.feature:5)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1053695609", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1053695609'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li ng-repeat=&quot;product in [] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude&quot; ng-click=&quot;$location.path(&apos;/product/&apos; + product.productId)&quot; class=&quot;ng-scope&quot;&gt;...&lt;/li&gt; is not clickable at point (357, 102). Other element would receive the click: &lt;nav class=&quot;pages categoryDataFixedNav fixed&quot; data-ng-class=&quot;{ fixedImportant : viewAll }&quot;&gt;...&lt;/nav&gt;
-  (Session info: MicrosoftEdge=142.0.3595.94)
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1077acfd2efe67c2e2632f761ca05d19, clickElement {id=f.D596AE892E756457637C76CFB4CF9D9D.d.1AEF09113186797733F9651BE5550B29.e.122}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 5812, ms:edgeOptions: {debuggerAddress: localhost:53604}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53604/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (1077acfd2efe67c2e2632f761ca05d19)] -&gt; xpath: /html/body/div[3]/section/article/div[3]/div/div/div[2]/ul/li[1]]
-Session ID: 1077acfd2efe67c2e2632f761ca05d19
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pageObject.LaptopPage.validateOSResults(LaptopPage.java:47)
-	at steps.tc2.user_should_see_laptops_that_match_the_selected_os(tc2.java:50)
-	at ✽.user should see laptops that match the selected OS(file:///D:/selenium%20demo/capstone_project/features/filter.feature:5)
-</pre></div></td>
-<td>22</td>
-<td>testrunner@2002fc1d</td></tr>
-<tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User filters laptops by the processor", "user view product by filters"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(),&apos;Processor_0&apos;)]&quot;}
-  (Session info: MicrosoftEdge=142.0.3595.94)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10e22f9b5c07cc16f66626d3b8d5c961, findElement {using=xpath, value=//*[contains(text(),&apos;Processor_0&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 9344, ms:edgeOptions: {debuggerAddress: localhost:53645}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53645/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10e22f9b5c07cc16f66626d3b8d5c961
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at pageObject.LaptopPage.validateProcessorResults(LaptopPage.java:99)
-	at steps.testcase_processor.the_displayed_laptops_should_have_in_selected_processor(testcase_processor.java:28)
-	at ✽.the displayed laptops should have in selected processor(file:///D:/selenium%20demo/capstone_project/features/filter.feature:17)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1063423209", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1063423209'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(),&apos;Processor_0&apos;)]&quot;}
-  (Session info: MicrosoftEdge=142.0.3595.94)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10e22f9b5c07cc16f66626d3b8d5c961, findElement {using=xpath, value=//*[contains(text(),&apos;Processor_0&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 9344, ms:edgeOptions: {debuggerAddress: localhost:53645}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53645/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10e22f9b5c07cc16f66626d3b8d5c961
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at pageObject.LaptopPage.validateProcessorResults(LaptopPage.java:99)
-	at steps.testcase_processor.the_displayed_laptops_should_have_in_selected_processor(testcase_processor.java:28)
-	at ✽.the displayed laptops should have in selected processor(file:///D:/selenium%20demo/capstone_project/features/filter.feature:17)
-</pre></div></td>
-<td>29</td>
-<td>testrunner@2002fc1d</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "user view product by filters"</td>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "Optional[user view product by filters]"</td>
+<td></td>
+<td>22</td>
+<td>testrunner@4cc8eb05</td></tr>
+<tr>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "Optional[user view product by filters]"</td>
+<td></td>
+<td>20</td>
+<td>testrunner@4cc8eb05</td></tr>
+<tr>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "Optional[user view product by filters]"</td>
 <td></td>
 <td>21</td>
-<td>testrunner@2002fc1d</td></tr>
+<td>testrunner@4cc8eb05</td></tr>
 <tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters invalid SafePay credentials", "SafePay Payment Validation"</td>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "Optional[user view product by filters]"</td>
 <td></td>
-<td>52</td>
-<td>testrunner@2002fc1d</td></tr>
+<td>21</td>
+<td>testrunner@4cc8eb05</td></tr>
 <tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check available products details", "Check product details"</td>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User filters laptops by the processor", "Optional[user view product by filters]"</td>
 <td></td>
-<td>35</td>
-<td>testrunner@2002fc1d</td></tr>
+<td>18</td>
+<td>testrunner@4cc8eb05</td></tr>
 <tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login with invalid value", "Login to the application"</td>
-<td></td>
-<td>14</td>
-<td>testrunner@2002fc1d</td></tr>
-<tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters valid SafePay credentials", "SafePay Payment Validation"</td>
-<td></td>
-<td>35</td>
-<td>testrunner@2002fc1d</td></tr>
-<tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check unavailable products details", "Check product details"</td>
-<td></td>
-<td>27</td>
-<td>testrunner@2002fc1d</td></tr>
-<tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid value", "Login to the application"</td>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid value", "Optional[Login to the application]"</td>
 <td></td>
 <td>19</td>
-<td>testrunner@2002fc1d</td></tr>
+<td>testrunner@4cc8eb05</td></tr>
 <tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "user view product by filters"</td>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login with invalid value", "Optional[Login to the application]"</td>
 <td></td>
-<td>20</td>
-<td>testrunner@2002fc1d</td></tr>
+<td>15</td>
+<td>testrunner@4cc8eb05</td></tr>
 <tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OS filter for multiple OS types", "user view product by filters"</td>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters valid SafePay credentials", "Optional[SafePay Payment Validation]"</td>
 <td></td>
-<td>20</td>
-<td>testrunner@2002fc1d</td></tr>
+<td>36</td>
+<td>testrunner@4cc8eb05</td></tr>
+<tr>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters invalid SafePay credentials", "Optional[SafePay Payment Validation]"</td>
+<td></td>
+<td>58</td>
+<td>testrunner@4cc8eb05</td></tr>
+<tr>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check available products details", "Optional[Check product details]"</td>
+<td></td>
+<td>35</td>
+<td>testrunner@4cc8eb05</td></tr>
+<tr>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check unavailable products details", "Optional[Check product details]"</td>
+<td></td>
+<td>28</td>
+<td>testrunner@4cc8eb05</td></tr>
 </table><p>
 </body>
 </html>

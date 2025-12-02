@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-29T15:42:57 IST" name="Suite" finished-at="2025-11-29T15:47:57 IST" duration-ms="300666">
+  <suite started-at="2025-12-02T13:58:35 IST" name="Suite" finished-at="2025-12-02T14:03:35 IST" duration-ms="299275">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-29T15:42:57 IST" name="testrunner" finished-at="2025-11-29T15:47:57 IST" duration-ms="300666">
+    <test started-at="2025-12-02T13:58:35 IST" name="testrunner" finished-at="2025-12-02T14:03:35 IST" duration-ms="299275">
       <class name="utilities.reportGenerator">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:utilities.reportGenerator@33c911a1]" started-at="2025-11-29T15:42:57 IST" name="startReport" finished-at="2025-11-29T15:42:57 IST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:utilities.reportGenerator@770d3326]" started-at="2025-12-02T13:58:35 IST" name="startReport" finished-at="2025-12-02T13:58:35 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:utilities.reportGenerator@33c911a1]" started-at="2025-11-29T15:47:58 IST" name="endReport" finished-at="2025-11-29T15:47:58 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:utilities.reportGenerator@770d3326]" started-at="2025-12-02T14:03:35 IST" name="endReport" finished-at="2025-12-02T14:03:35 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- utilities.reportGenerator -->
       <class name="testrunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:42:57 IST" name="setUpClass" finished-at="2025-11-29T15:42:57 IST" duration-ms="212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2017f6e6]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T13:58:35 IST" name="setUpClass" finished-at="2025-12-02T13:58:36 IST" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:42:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:43:19 IST" duration-ms="21574" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T13:58:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T13:58:58 IST" duration-ms="22601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,14 +33,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["user view product by filters"]]>
+                <![CDATA["Optional[user view product by filters]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:43:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:43:39 IST" duration-ms="20794" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T13:58:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T13:59:19 IST" duration-ms="20953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,14 +49,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["user view product by filters"]]>
+                <![CDATA["Optional[user view product by filters]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:43:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:44:00 IST" duration-ms="20873" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T13:59:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T13:59:41 IST" duration-ms="21310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,14 +65,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["user view product by filters"]]>
+                <![CDATA["Optional[user view product by filters]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:44:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:44:22 IST" duration-ms="22115" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T13:59:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:00:02 IST" duration-ms="21020" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,54 +81,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["user view product by filters"]]>
+                <![CDATA["Optional[user view product by filters]"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <li ng-repeat="product in [] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude" ng-click="$location.path('/product/' + product.productId)" class="ng-scope">...</li> is not clickable at point (357, 102). Other element would receive the click: <nav class="pages categoryDataFixedNav fixed" data-ng-class="{ fixedImportant : viewAll }">...</nav>
-  (Session info: MicrosoftEdge=142.0.3595.94)
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1077acfd2efe67c2e2632f761ca05d19, clickElement {id=f.D596AE892E756457637C76CFB4CF9D9D.d.1AEF09113186797733F9651BE5550B29.e.122}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 5812, ms:edgeOptions: {debuggerAddress: localhost:53604}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53604/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (1077acfd2efe67c2e2632f761ca05d19)] -> xpath: /html/body/div[3]/section/article/div[3]/div/div/div[2]/ul/li[1]]
-Session ID: 1077acfd2efe67c2e2632f761ca05d19]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li ng-repeat="product in [] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude" ng-click="$location.path('/product/' + product.productId)" class="ng-scope">...</li> is not clickable at point (357, 102). Other element would receive the click: <nav class="pages categoryDataFixedNav fixed" data-ng-class="{ fixedImportant : viewAll }">...</nav>
-  (Session info: MicrosoftEdge=142.0.3595.94)
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1077acfd2efe67c2e2632f761ca05d19, clickElement {id=f.D596AE892E756457637C76CFB4CF9D9D.d.1AEF09113186797733F9651BE5550B29.e.122}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 5812, ms:edgeOptions: {debuggerAddress: localhost:53604}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53604/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (1077acfd2efe67c2e2632f761ca05d19)] -> xpath: /html/body/div[3]/section/article/div[3]/div/div/div[2]/ul/li[1]]
-Session ID: 1077acfd2efe67c2e2632f761ca05d19
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pageObject.LaptopPage.validateOSResults(LaptopPage.java:47)
-at steps.tc2.user_should_see_laptops_that_match_the_selected_os(tc2.java:50)
-at ✽.user should see laptops that match the selected OS(file:///D:/selenium%20demo/capstone_project/features/filter.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:44:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:44:51 IST" duration-ms="29048" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:00:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:00:20 IST" duration-ms="18522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,56 +97,14 @@ at ✽.user should see laptops that match the selected OS(file:///D:/selenium%20
             </param>
             <param index="1">
               <value>
-                <![CDATA["user view product by filters"]]>
+                <![CDATA["Optional[user view product by filters]"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Processor_0')]"}
-  (Session info: MicrosoftEdge=142.0.3595.94)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10e22f9b5c07cc16f66626d3b8d5c961, findElement {using=xpath, value=//*[contains(text(),'Processor_0')]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 9344, ms:edgeOptions: {debuggerAddress: localhost:53645}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53645/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10e22f9b5c07cc16f66626d3b8d5c961]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Processor_0')]"}
-  (Session info: MicrosoftEdge=142.0.3595.94)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10e22f9b5c07cc16f66626d3b8d5c961, findElement {using=xpath, value=//*[contains(text(),'Processor_0')]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 9344, ms:edgeOptions: {debuggerAddress: localhost:53645}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53645/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10e22f9b5c07cc16f66626d3b8d5c961
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at pageObject.LaptopPage.validateProcessorResults(LaptopPage.java:99)
-at steps.testcase_processor.the_displayed_laptops_should_have_in_selected_processor(testcase_processor.java:28)
-at ✽.the displayed laptops should have in selected processor(file:///D:/selenium%20demo/capstone_project/features/filter.feature:17)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:44:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:45:11 IST" duration-ms="19724" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:00:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:00:40 IST" duration-ms="19299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,14 +113,14 @@ at ✽.the displayed laptops should have in selected processor(file:///D:/seleni
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login to the application"]]>
+                <![CDATA["Optional[Login to the application]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:45:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:45:26 IST" duration-ms="14788" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:00:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:00:55 IST" duration-ms="15314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,14 +129,14 @@ at ✽.the displayed laptops should have in selected processor(file:///D:/seleni
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login to the application"]]>
+                <![CDATA["Optional[Login to the application]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:45:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:46:02 IST" duration-ms="35675" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:00:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:01:32 IST" duration-ms="36954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,14 +145,14 @@ at ✽.the displayed laptops should have in selected processor(file:///D:/seleni
             </param>
             <param index="1">
               <value>
-                <![CDATA["SafePay Payment Validation"]]>
+                <![CDATA["Optional[SafePay Payment Validation]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:46:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:46:55 IST" duration-ms="52874" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:01:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:02:30 IST" duration-ms="58155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,14 +161,14 @@ at ✽.the displayed laptops should have in selected processor(file:///D:/seleni
             </param>
             <param index="1">
               <value>
-                <![CDATA["SafePay Payment Validation"]]>
+                <![CDATA["Optional[SafePay Payment Validation]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:46:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:47:30 IST" duration-ms="35330" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:02:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:03:06 IST" duration-ms="35981" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,14 +177,14 @@ at ✽.the displayed laptops should have in selected processor(file:///D:/seleni
             </param>
             <param index="1">
               <value>
-                <![CDATA["Check product details"]]>
+                <![CDATA["Optional[Check product details]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:47:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:47:57 IST" duration-ms="27591" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:03:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-02T14:03:35 IST" duration-ms="28591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,14 +193,14 @@ at ✽.the displayed laptops should have in selected processor(file:///D:/seleni
             </param>
             <param index="1">
               <value>
-                <![CDATA["Check product details"]]>
+                <![CDATA["Optional[Check product details]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@2002fc1d]" started-at="2025-11-29T15:47:57 IST" name="tearDownClass" finished-at="2025-11-29T15:47:57 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@4cc8eb05]" started-at="2025-12-02T14:03:35 IST" name="tearDownClass" finished-at="2025-12-02T14:03:35 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
