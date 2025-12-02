@@ -18,7 +18,6 @@ public class testcase_processor extends reportGenerator {
     @When("the user filter the laptops by the processor")
     public void the_user_filter_the_laptops_by_the_processor() {
     	test=extent.startTest("Processor filter test");
-    	
         lap.selectProcessor();
     }
 
