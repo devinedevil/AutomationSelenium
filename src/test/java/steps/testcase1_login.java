@@ -12,6 +12,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObject.loginpage;
 import utilities.reportGenerator;
 
@@ -31,12 +32,8 @@ public class testcase1_login extends reportGenerator{
 	public void he_enters_the_valid_credentials_of_and(String string, String string2) throws InterruptedException {
 		Loginpage1.login(string,string2);
 	    boolean logpass=Loginpage1.isLoginSuccessfull();
-       
-        	assertTrue(logpass);
-        	test.log(LogStatus.PASS, "user entered the valid details");
-        
-        Thread.sleep(2000);
-	    driver.quit();
+        assertTrue(logpass);
+
 	    
 	    
 
@@ -47,6 +44,7 @@ public class testcase1_login extends reportGenerator{
 	      System.out.println("The user should be able to login to the Home page");
 	      Thread.sleep(2000);
 	      assertTrue(true);
+	      Allure.step("Valid Login Passed");
 	      test.log(LogStatus.PASS, "user entered the valid details");
 	   
 	     

@@ -7,6 +7,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObject.payment;
 import utilities.Screenshot;
 import utilities.reportGenerator;
@@ -47,6 +48,7 @@ public class testcase4_payment_valid extends reportGenerator {
 	   Thread.sleep(2000);
 	   test.log(LogStatus.PASS," payment is Pass");
 	   screen.takeScreenshot();
+	   Allure.step("Valid Payment Passed");
 	   pay.payment();
 	}
 }

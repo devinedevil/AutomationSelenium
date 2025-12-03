@@ -6,6 +6,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObject.LaptopPage;
 import pageObject.payment;
 import pageObject.product;
@@ -19,7 +20,7 @@ public class testcase8 extends reportGenerator {
 	payment lap=new payment();
 	public testcase8() {
 	   
-	    test = extent.startTest("Test 7");
+	    test = extent.startTest("Product visible test");
 	}
 	
 	@When("he check product details are not available")
@@ -35,8 +36,9 @@ public class testcase8 extends reportGenerator {
 	public void display_it_is_unavailable() throws InterruptedException {
 		try {
     	    screen.takeScreenshot();
-    	    test.log(LogStatus.FAIL, "Test7 is Fail");
+    	    test.log(LogStatus.FAIL, "Product visible test is Fail");
     	} catch (Exception e) {
+    		 Allure.addAttachment("Not available details", e.getMessage());
     	   
     	} 
 	}

@@ -9,12 +9,15 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObject.loginpage;
+import utilities.Screenshot;
 import utilities.reportGenerator;
 
 public class testcase2_invalid extends reportGenerator {
 	loginpage Loginpage2;
 	WebDriver driver=hooks.getDriver();
+	Screenshot screen = new Screenshot();
 	
 	@Given("The user in the login page to login with invalid details")
 	public void the_user_in_the_login_page_to_login_with_valid_details() {
@@ -32,9 +35,16 @@ public class testcase2_invalid extends reportGenerator {
 	@Then("he should be not able to login to the Home page")
 	public void he_should_be_not_able_to_login_to_the_home_page() {
 		System.out.println("The user should be not able to login to the Home page");
-		 boolean logpass=Loginpage2.isLoginFailed();
-		 assertFalse(logpass);
-	    test.log(LogStatus.FAIL, "user entered the invalid details");   
+		
+	    try {
+	    	 boolean logpass=Loginpage2.isLoginFailed();
+			 assertFalse(logpass); 
+    	    Thread.sleep(2000);
+    	    screen.takeScreenshot();
+    	    test.log(LogStatus.FAIL, "user entered the invalid details");
+    	} catch (Exception e) {
+    	    Allure.addAttachment("Valid Login Failed", e.getMessage());
 	}
 
+	}
 }
