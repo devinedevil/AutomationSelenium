@@ -8,6 +8,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObject.payment;
 import pageObject.product;
 import utilities.Screenshot;
@@ -19,7 +20,7 @@ public class testcase7_product extends reportGenerator {
 	payment pid= new payment();
 	product pd=new product();
 	public testcase7_product() {
-		 test = extent.startTest("Test 6");
+		 test = extent.startTest("Available details test 1");
     }
 	
 	@When("he check product details available")
@@ -35,6 +36,7 @@ public class testcase7_product extends reportGenerator {
 		Thread.sleep(10000);
 		test.log(LogStatus.PASS,"Product details check is Pass");
 		screen.takeScreenshot();
+		Allure.step("Available details Passed");
 
 	}
 

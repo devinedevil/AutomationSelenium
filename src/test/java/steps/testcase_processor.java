@@ -8,12 +8,15 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObject.LaptopPage;
+import utilities.Screenshot;
 import utilities.reportGenerator;
 
 public class testcase_processor extends reportGenerator {
     LaptopPage lap = new LaptopPage();
     WebDriver driver = hooks.getDriver();
+    Screenshot screen=new Screenshot();
     
     @When("the user filter the laptops by the processor")
     public void the_user_filter_the_laptops_by_the_processor() {
@@ -30,9 +33,18 @@ public class testcase_processor extends reportGenerator {
         if (isCorrect) {
             System.out.println("The processor filter worked correctly");
             test.log(LogStatus.PASS, "Results match the selected processor");
+            Allure.step("The processor filter worked correctly");
         } else {
             System.out.println("The processor filter did not work correctly");
             test.log(LogStatus.FAIL, "Results do not match the selected processor");
+            try {
+        	    Thread.sleep(2000);
+        	    screen.takeScreenshot();
+        	    test.log(LogStatus.FAIL, "Test1 is Fail");
+        	} catch (Exception e) {
+        	    Allure.addAttachment("Valid Login Failed", e.getMessage());
         }
     }
+    }
+    
 }
